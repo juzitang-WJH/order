@@ -1,0 +1,128 @@
+@CHARSET "UTF-8";
+body {
+	margin: 0 auto;
+	background-color:lightgrey; 
+
+}
+.container{
+	width:100%;
+    margin:0 auto;
+}
+
+.top{
+	text-align:center;
+	height:45px;
+	width:100%;
+}
+.icon{		
+   width:35px;
+   padding-top:8px;
+}
+.date{
+  padding-top:15px;
+}
+.login{
+  padding-top:15px;
+  text-align:right;
+}
+.loginuser{
+  margin-right:50px;
+}
+.login a{
+   margin-right:50px;
+   text-decoration: none; 
+}
+
+.content{
+  width:100%;
+  height:100%;
+  position:absolute;
+}
+
+.left{
+	width:18%;
+	height:100%;
+	float:left;
+	background-color:#DCDCDC;
+}
+
+.left_icon{
+    width: 7rem;
+    height: 7rem;
+    border-radius:60%;
+    margin:3rem auto;
+    background-image: url("../img/left-icon.jpg");
+    background-size: 100% 100%;
+}
+
+.left_list{
+    height: 3rem;
+    width: 100%;
+    display:block;  
+    background-color:orange;
+    text-align: center;
+}
+.left_list1{
+    height: 3rem;
+    width: 100%;
+    display:block;  /*块级元素*/
+    text-align: center;
+    
+}
+.left_button{
+    text-align: center;
+    height: 2.3rem;
+    width: 100%;
+    display:block;
+    text-decoration:none;
+    padding-top:0.7rem;
+}
+a:hover{
+	
+	background-color:orange;
+}
+
+.center{
+    float:left;
+	width:82%;
+	height:100%;
+	background-color:#FAFAFA;
+}
+.nav{
+   width:100%;
+   margin-top:20px;
+ /*  height:95px;*/
+}
+
+ul {
+    list-style:none;/*去除项列表前面的圆点*/
+}
+ul li {
+   float:left;/**使列表项不再遵循默认的自上而下样式,使之变成横向列表*/
+}
+ul li a {
+   display: block; /*切割完毕,变成块状，这下我们就可以实现内外边距，边框背景等属性*/
+   width: 100px; /*宽度设置*/
+   padding-left: 10px; 
+   padding-right: 10px;
+   text-align: center; /*文本居中显示*/
+   text-decoration: none; /*下划线设置*/
+}
+.content_button{
+    width:20%;
+    height: 3rem;
+    border:none;
+    display: block;
+    background-color:transparent;
+    float:left;
+}
+ 
+.content_button:hover{
+    background-color: #F63440;
+    color: white;
+}
+.list_name{
+	font-size: 16px;
+    line-height: 3rem;
+}
+ 
